@@ -130,7 +130,7 @@ main, .top, .foot { position: relative; z-index: 1; }
   background: linear-gradient(160deg, #2A2E36, #15171B 40%, #0D0E11);
   box-shadow: 0 1px 0 rgba(255,255,255,.08) inset, 0 30px 60px -24px rgba(0,0,0,.8), 0 12px 24px -12px rgba(0,0,0,.6);
 }
-.phone img { border-radius: 27px; width: 100%; aspect-ratio: 600 / 1333; object-fit: cover; background: var(--surface); }
+.phone img { border-radius: 27px; width: 100%; height: auto; background: var(--surface); }
 .phone-hero { transform: rotate(2.5deg); }
 
 .sticker {
